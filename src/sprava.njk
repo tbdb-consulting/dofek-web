@@ -1,0 +1,51 @@
+---
+permalink: /sprava/
+---
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Poptávky – správa – {{ firma.nazev }}</title>
+<link rel="stylesheet" href="{{ web.zaklad }}/assets/styl.css">
+<link rel="stylesheet" href="{{ web.zaklad }}/assets/sprava.css">
+</head>
+<body class="sprava">
+<div class="testovaci">UKÁZKA správy poptávek (TBDB) – vymyšlené poptávky i ceny, nic se neodesílá. Ve skutečném provozu se sem stolař přihlásí.</div>
+<header class="hlavicka">
+  <div class="obal hlavicka-obal">
+    <a class="znacka" href="{{ web.zaklad }}/sprava/"><span>Stolařství</span> DOFEK · poptávky</a>
+    <span class="prihlasen">Přihlášen: {{ firma.majitel }}</span>
+  </div>
+</header>
+
+<main class="obal sprava-obal">
+  <section id="seznam" aria-label="Seznam poptávek">
+    <div class="sprava-lista">
+      <h1>Poptávky</h1>
+      <nav class="filtr" id="filtr-stav" aria-label="Stav poptávky"></nav>
+    </div>
+    <div id="karty" class="karty"></div>
+  </section>
+
+  <section id="detail" hidden aria-live="polite"></section>
+</main>
+
+<dialog id="odeslat" class="dlg">
+  <form method="dialog">
+    <h2>Odeslat předběžnou nabídku?</h2>
+    <p id="odeslat-komu"></p>
+    <p class="pozn">V ukázce se nic neodešle – jen se změní stav poptávky.</p>
+    <div class="dlg-tlacitka">
+      <button value="ne" class="tlacitko tlacitko-druhe">Zpět</button>
+      <button value="ano" class="tlacitko">Odeslat</button>
+    </div>
+  </form>
+</dialog>
+
+<script>window.ZAKLAD = "{{ web.zaklad }}";</script>
+<script src="{{ web.zaklad }}/assets/sprava-data.js" defer></script>
+<script src="{{ web.zaklad }}/assets/sprava.js" defer></script>
+</body>
+</html>
