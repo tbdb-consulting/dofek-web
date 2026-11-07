@@ -1,0 +1,45 @@
+/* Kancelář stolařství – návrh. Stavba jako kancelář Vixen: tmavý panel modulů vlevo, obsah vpravo. */
+.kancelar { background: #f4efe8; }
+.k-hlava { background: #2b1a0c; color: #f3e8dc; display: flex; align-items: center; padding: 12px 18px; }
+.k-znacka { font-weight: 700; letter-spacing: .14em; color: #d9a66b; }
+.k-uz { margin-left: auto; font-size: .9rem; opacity: .8; }
+.k-telo { display: grid; grid-template-columns: 1fr; min-height: calc(100vh - 90px); }
+.k-menu { background: #3a2412; display: flex; overflow-x: auto; gap: 2px; padding: 6px; }
+.k-menu a { color: #f3e8dc; text-decoration: none; padding: 10px 14px; border-radius: 6px; white-space: nowrap; font-weight: 600; font-size: .95rem; }
+.k-menu a[aria-current="page"] { background: #d9a66b; color: #2b1a0c; }
+.k-menu a:hover { background: rgba(255,255,255,.08); }
+.k-pocet { background: #c0392b; color: #fff; border-radius: 10px; font-size: .75rem; padding: 1px 7px; margin-left: 4px; }
+@media (min-width: 52rem) {
+  .k-telo { grid-template-columns: 220px 1fr; }
+  .k-menu { flex-direction: column; overflow: visible; padding: 14px 10px; gap: 4px; }
+}
+.k-obsah { padding: 20px; max-width: 1200px; }
+.k-obsah h1 { font-size: 1.5rem; margin: 0 0 12px; }
+.k-info { background: #fff; border-left: 4px solid var(--drevo); border-radius: 6px; padding: 10px 14px; color: var(--seda); margin: 0 0 14px; max-width: 60rem; }
+.k-pozn { font-size: .88rem; color: var(--seda); }
+.k-dlazdice { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 16px; }
+@media (min-width: 52rem) { .k-dlazdice { grid-template-columns: repeat(4, 1fr); } }
+.k-dl { background: #fff; border: 1px solid var(--ram); border-radius: 12px; padding: 14px 16px; text-decoration: none; color: var(--text); display: flex; flex-direction: column; }
+.k-dl b { font-size: 2rem; color: var(--drevo-tmave); line-height: 1.1; }
+.k-dl.k-pozor b { color: #c0392b; }
+.k-2 { display: grid; gap: 14px; }
+@media (min-width: 64rem) { .k-2 { grid-template-columns: 3fr 2fr; } }
+.k-karta { background: #fff; border: 1px solid var(--ram); border-radius: 12px; padding: 14px 16px; }
+.k-karta h2 { font-size: 1.1rem; margin: 0 0 10px; }
+.k-hlida { margin: 0; padding-left: 4px; list-style: none; }
+.k-hlida li { padding: 8px 0; border-bottom: 1px solid var(--ram); }
+.k-tab { overflow-x: auto; background: #fff; border: 1px solid var(--ram); border-radius: 10px; }
+.k-tab table { border-collapse: collapse; width: 100%; font-size: .93rem; }
+.k-tab th { background: var(--drevo); color: #fff; text-align: left; padding: 8px 10px; white-space: nowrap; }
+.k-tab td { padding: 7px 10px; border-bottom: 1px solid var(--ram); vertical-align: top; }
+.k-tab tr:nth-child(even) td { background: #faf6f0; }
+.k-tab .c { text-align: right; white-space: nowrap; }
+.k-tab small { color: var(--seda); }
+.k-stav { display: inline-block; font-size: .78rem; font-weight: 700; padding: 2px 8px; border-radius: 10px; white-space: nowrap; }
+.k-poptavka, .k-zamereni { background: #fde7c7; color: #8a4b00; }
+.k-vyroba { background: #e3eefc; color: #1f4e78; }
+.k-montaz { background: #efe3fc; color: #5b2a86; }
+.k-fakturace { background: #fff3c4; color: #6b5200; }
+.k-hotovo { background: #e3f2e6; color: #2f6b3a; }
+.k-pozorstav { background: #fbe1dd; color: #a3321f; }
+.k-minus { color: #c0392b; }

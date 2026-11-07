@@ -1,0 +1,28 @@
+---
+permalink: /kancelar/
+---
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Kancelář – {{ firma.nazev }}</title>
+<link rel="stylesheet" href="{{ web.zaklad }}/assets/styl.css">
+<link rel="stylesheet" href="{{ web.zaklad }}/assets/kancelar.css">
+</head>
+<body class="kancelar">
+<header class="k-hlava">
+  <span class="k-znacka">STOLAŘSTVÍ DOFEK · KANCELÁŘ</span>
+  <span class="k-uz">Václav Dofek</span>
+</header>
+<div class="testovaci">NÁVRH kanceláře (TBDB) – vymyšlená data a čísla, nic se neukládá. Ukazuje, jaké moduly by firma mohla mít.</div>
+<div class="k-telo">
+  <nav class="k-menu" id="k-menu" aria-label="Moduly"></nav>
+  <main class="k-obsah" id="k-obsah"></main>
+</div>
+<script>window.ZAKLAD = "{{ web.zaklad }}";</script>
+<script src="{{ web.zaklad }}/assets/kancelar-data.js" defer></script>
+<script src="{{ web.zaklad }}/assets/kancelar.js" defer></script>
+</body>
+</html>
