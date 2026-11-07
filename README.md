@@ -6,7 +6,8 @@ Kontext zakázky: `C:\Projekty TBDB\tbdb\Klienti\Dofek\KONTEXT.md`.
 
 ## Stav k 7. 11. 2026
 
-- Jen na tomto počítači (`C:\Projekty TBDB\dofek-web`), **nezveřejněno**, zatím bez repozitáře na GitHubu.
+- Soukromý repozitář `tbdb-consulting/dofek-web` (od 7. 11. 2026), **nezveřejněno**. Testovací adresa
+  zatím není: GitHub Pages jde na bezplatném plánu organizace jen z veřejného repozitáře.
 - Stránky: úvod, Reference, Poptávka (formulář z mobilu – zatím nic neodesílá), Kontakt, Ochrana údajů (návrh).
 - Žlutě `[DOPLNIT …]` = údaj, který musí dodat stolař (montáž, materiály, zpracovatelé dat).
 - Testovací verze má `noindex` a žlutý pruh nahoře. Ostrá verze: `OSTRY=1 npm run build`.
