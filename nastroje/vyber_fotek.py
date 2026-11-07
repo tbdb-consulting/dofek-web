@@ -27,7 +27,7 @@ for k in kat["kategorie"]:
         im = Image.open(os.path.join(KOREN, "src", "fotky", f["id"] + "-n.jpg"))
         im.thumbnail((360, 360))
         im.save(os.path.join(os.path.dirname(cil), slozka, f["id"] + ".jpg"), quality=72)
-        pouzit = "checked" if k["kod"] != "dilna" else ""
+        pouzit = "checked" if f.get("pouzit", k["kod"] != "dilna") else ""
         hlavni = "checked" if f["hlavni"] else ""
         odkud = "stránka" if f["odkud"] == "stranka" else "profil V. D."
         karty.append(

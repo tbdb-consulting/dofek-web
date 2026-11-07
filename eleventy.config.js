@@ -11,10 +11,10 @@ export default function (eleventyConfig) {
 
   // Fotky jedné kategorie / jen hlavní / jen reference.
   eleventyConfig.addFilter("vKategorii", (fotky, kod) => fotky.filter((f) => f.kategorie === kod));
-  // Hlavní fotky: novější a ostřejší z profilu majitele napřed, starší ze stránky stolařství za nimi.
+  // Hlavní fotky v pořadí, které vybral Keksa (pole poradi); ostatní použité jdou do Referencí.
   eleventyConfig.addFilter("hlavni", (fotky) =>
-    fotky.filter((f) => f.hlavni).sort((a, b) => (a.odkud === b.odkud ? 0 : a.odkud === "profil" ? -1 : 1)));
-  eleventyConfig.addFilter("reference", (fotky) => fotky.filter((f) => !f.hlavni && f.kategorie !== "dilna"));
+    fotky.filter((f) => f.hlavni).sort((a, b) => (a.poradi || 999) - (b.poradi || 999)));
+  eleventyConfig.addFilter("reference", (fotky) => fotky.filter((f) => f.pouzit !== false && !f.hlavni));
   eleventyConfig.addFilter("najdi", (fotky, id) => fotky.find((f) => f.id === id));
 
   return {

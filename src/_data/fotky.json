@@ -1,5 +1,5 @@
 {
- "_poznamka": "Fotky z facebookové stránky Stolařství DOFEK a z profilu Václava Dofka, staženo 7. 11. 2026. hlavni=true: návrh Claude na hlavní stránky, čeká na výběr Keksy (Otázky/261107_T26-08-1_vyber_fotek.html).",
+ "_poznamka": "Fotky z facebookové stránky Stolařství DOFEK a z profilu Václava Dofka, staženo 7. 11. 2026. Výběr Keksa 7. 11. 2026: hlavni=true na úvodní stránku (pořadí = poradi), ostatní s pouzit=true do Referencí, pouzit=false nepoužít.",
  "kategorie": [
   {
    "kod": "kuchyne",
@@ -50,7 +50,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F002",
@@ -59,16 +60,19 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F003",
    "zdroj": "kavarny-bary_01_261589573874778.jpg",
    "kategorie": "firmy",
-   "hlavni": false,
+   "hlavni": true,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "poradi": 24,
+   "pouzit": true
   },
   {
    "id": "F004",
@@ -77,7 +81,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F005",
@@ -86,7 +91,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F006",
@@ -95,7 +101,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F007",
@@ -104,7 +111,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F008",
@@ -113,7 +121,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F009",
@@ -122,16 +131,20 @@
    "hlavni": true,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "poradi": 25,
+   "pouzit": true
   },
   {
    "id": "F010",
    "zdroj": "koupelny_01_153413951359008.jpg",
    "kategorie": "koupelny",
-   "hlavni": false,
+   "hlavni": true,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "poradi": 22,
+   "pouzit": true
   },
   {
    "id": "F011",
@@ -140,7 +153,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F012",
@@ -149,7 +163,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F013",
@@ -158,16 +173,19 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F014",
    "zdroj": "koupelny_05_166435583390178.jpg",
    "kategorie": "koupelny",
-   "hlavni": false,
+   "hlavni": true,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "poradi": 23,
+   "pouzit": true
   },
   {
    "id": "F015",
@@ -176,7 +194,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F016",
@@ -185,7 +204,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F017",
@@ -194,7 +214,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F018",
@@ -203,7 +224,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F019",
@@ -212,7 +234,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F020",
@@ -221,7 +244,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F021",
@@ -230,7 +254,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F022",
@@ -239,7 +264,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F023",
@@ -248,7 +274,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F024",
@@ -257,7 +284,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F025",
@@ -266,7 +294,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F026",
@@ -275,7 +304,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F027",
@@ -284,7 +314,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F028",
@@ -293,7 +324,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F029",
@@ -302,7 +334,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F030",
@@ -311,7 +344,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F031",
@@ -320,7 +354,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F032",
@@ -329,7 +364,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F033",
@@ -338,7 +374,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F034",
@@ -347,7 +384,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F035",
@@ -356,7 +394,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F036",
@@ -365,7 +404,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F037",
@@ -374,7 +414,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F038",
@@ -383,7 +424,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F039",
@@ -392,7 +434,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F040",
@@ -401,7 +444,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F041",
@@ -410,7 +454,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F042",
@@ -419,7 +464,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 539,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F043",
@@ -428,7 +474,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F044",
@@ -437,7 +484,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F045",
@@ -446,7 +494,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F046",
@@ -455,7 +504,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 639
+   "h": 639,
+   "pouzit": true
   },
   {
    "id": "F047",
@@ -464,7 +514,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F048",
@@ -473,7 +524,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F049",
@@ -482,7 +534,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F050",
@@ -491,7 +544,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F051",
@@ -500,7 +554,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 603,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F052",
@@ -509,7 +564,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 521
+   "h": 521,
+   "pouzit": true
   },
   {
    "id": "F053",
@@ -518,7 +574,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F054",
@@ -527,7 +584,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F055",
@@ -536,7 +594,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F056",
@@ -545,7 +604,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F057",
@@ -554,7 +614,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 460
+   "h": 460,
+   "pouzit": true
   },
   {
    "id": "F058",
@@ -563,7 +624,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F059",
@@ -572,7 +634,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F060",
@@ -581,7 +644,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F061",
@@ -590,7 +654,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F062",
@@ -599,7 +664,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F063",
@@ -608,7 +674,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F064",
@@ -617,7 +684,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F065",
@@ -626,7 +694,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F066",
@@ -635,7 +704,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F067",
@@ -644,7 +714,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F068",
@@ -653,7 +724,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F069",
@@ -662,7 +734,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F070",
@@ -671,7 +744,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F071",
@@ -680,7 +754,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1400,
-   "h": 930
+   "h": 930,
+   "pouzit": true
   },
   {
    "id": "F072",
@@ -689,7 +764,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1400,
-   "h": 930
+   "h": 930,
+   "pouzit": true
   },
   {
    "id": "F073",
@@ -698,7 +774,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 930,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F074",
@@ -707,7 +784,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1400,
-   "h": 930
+   "h": 930,
+   "pouzit": true
   },
   {
    "id": "F075",
@@ -716,7 +794,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 930,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F076",
@@ -725,7 +804,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F077",
@@ -734,7 +814,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F078",
@@ -743,7 +824,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 639
+   "h": 639,
+   "pouzit": true
   },
   {
    "id": "F079",
@@ -752,7 +834,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 639
+   "h": 639,
+   "pouzit": true
   },
   {
    "id": "F080",
@@ -761,7 +844,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 639
+   "h": 639,
+   "pouzit": true
   },
   {
    "id": "F081",
@@ -770,7 +854,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 639
+   "h": 639,
+   "pouzit": true
   },
   {
    "id": "F082",
@@ -779,7 +864,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 639
+   "h": 639,
+   "pouzit": true
   },
   {
    "id": "F083",
@@ -788,7 +874,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F084",
@@ -797,7 +884,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 361,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F085",
@@ -806,7 +894,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F086",
@@ -815,7 +904,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F087",
@@ -824,7 +914,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": false
   },
   {
    "id": "F088",
@@ -833,7 +924,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": false
   },
   {
    "id": "F089",
@@ -842,7 +934,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": false
   },
   {
    "id": "F090",
@@ -851,7 +944,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": false
   },
   {
    "id": "F091",
@@ -860,7 +954,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": false
   },
   {
    "id": "F092",
@@ -869,7 +964,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": false
   },
   {
    "id": "F093",
@@ -878,7 +974,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": false
   },
   {
    "id": "F094",
@@ -887,7 +984,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": false
   },
   {
    "id": "F095",
@@ -896,7 +994,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": false
   },
   {
    "id": "F096",
@@ -905,7 +1004,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": false
   },
   {
    "id": "F097",
@@ -914,7 +1014,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 1280,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F098",
@@ -923,7 +1024,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 528
+   "h": 528,
+   "pouzit": true
   },
   {
    "id": "F099",
@@ -932,7 +1034,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 528,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F100",
@@ -941,7 +1044,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 528,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F101",
@@ -950,7 +1054,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 528,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F102",
@@ -959,7 +1064,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 528,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F103",
@@ -968,16 +1074,19 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 528,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F104",
    "zdroj": "realizace_08_1293574797342912.jpg",
    "kategorie": "police",
-   "hlavni": false,
+   "hlavni": true,
    "odkud": "stranka",
    "w": 528,
-   "h": 960
+   "h": 960,
+   "poradi": 19,
+   "pouzit": true
   },
   {
    "id": "F105",
@@ -986,7 +1095,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F106",
@@ -995,7 +1105,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F107",
@@ -1004,7 +1115,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 640
+   "h": 640,
+   "pouzit": true
   },
   {
    "id": "F108",
@@ -1013,7 +1125,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 639,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F109",
@@ -1022,7 +1135,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 639,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F110",
@@ -1031,7 +1145,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 639,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F111",
@@ -1040,7 +1155,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 639,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F112",
@@ -1049,7 +1165,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 639,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F113",
@@ -1058,7 +1175,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 639,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F114",
@@ -1067,7 +1185,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 639,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F115",
@@ -1076,7 +1195,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 639,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F116",
@@ -1085,7 +1205,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 639
+   "h": 639,
+   "pouzit": true
   },
   {
    "id": "F117",
@@ -1094,7 +1215,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F118",
@@ -1103,7 +1225,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F119",
@@ -1112,7 +1235,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F120",
@@ -1121,7 +1245,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F121",
@@ -1130,7 +1255,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F122",
@@ -1139,7 +1265,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F123",
@@ -1148,7 +1275,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F124",
@@ -1157,7 +1285,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 479
+   "h": 479,
+   "pouzit": true
   },
   {
    "id": "F125",
@@ -1166,7 +1295,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F126",
@@ -1175,7 +1305,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F127",
@@ -1184,7 +1315,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F128",
@@ -1193,7 +1325,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F129",
@@ -1202,7 +1335,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F130",
@@ -1211,7 +1345,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F131",
@@ -1220,7 +1355,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 720,
-   "h": 540
+   "h": 540,
+   "pouzit": true
   },
   {
    "id": "F132",
@@ -1229,7 +1365,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F133",
@@ -1238,7 +1375,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 479,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F134",
@@ -1247,7 +1385,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F135",
@@ -1256,7 +1395,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F136",
@@ -1265,7 +1405,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 540,
-   "h": 720
+   "h": 720,
+   "pouzit": true
   },
   {
    "id": "F137",
@@ -1274,7 +1415,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 639,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F138",
@@ -1283,7 +1425,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 639
+   "h": 639,
+   "pouzit": true
   },
   {
    "id": "F139",
@@ -1292,7 +1435,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 639,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F140",
@@ -1301,7 +1445,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 639,
-   "h": 960
+   "h": 960,
+   "pouzit": true
   },
   {
    "id": "F141",
@@ -1310,7 +1455,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 639
+   "h": 639,
+   "pouzit": true
   },
   {
    "id": "F142",
@@ -1319,7 +1465,8 @@
    "hlavni": false,
    "odkud": "stranka",
    "w": 960,
-   "h": 639
+   "h": 639,
+   "pouzit": true
   },
   {
    "id": "F144",
@@ -1328,7 +1475,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F145",
@@ -1337,7 +1485,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F146",
@@ -1346,7 +1495,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "poradi": 16,
+   "pouzit": true
   },
   {
    "id": "F147",
@@ -1355,16 +1506,19 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F148",
    "zdroj": "vd-fotky-a_05_26985923831012635.jpg",
    "kategorie": "kuchyne",
-   "hlavni": false,
+   "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "poradi": 1,
+   "pouzit": true
   },
   {
    "id": "F149",
@@ -1373,7 +1527,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F150",
@@ -1382,7 +1537,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F151",
@@ -1391,7 +1547,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F152",
@@ -1400,7 +1557,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "poradi": 2,
+   "pouzit": true
   },
   {
    "id": "F153",
@@ -1409,7 +1568,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F154",
@@ -1418,7 +1578,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F155",
@@ -1427,7 +1588,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F156",
@@ -1436,7 +1598,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F157",
@@ -1445,16 +1608,18 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F158",
    "zdroj": "vd-fotky-a_15_25668673986070966.jpg",
    "kategorie": "skrine",
-   "hlavni": true,
+   "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F159",
@@ -1463,7 +1628,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F160",
@@ -1472,7 +1638,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "poradi": 20,
+   "pouzit": true
   },
   {
    "id": "F161",
@@ -1481,7 +1649,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "poradi": 3,
+   "pouzit": true
   },
   {
    "id": "F162",
@@ -1490,7 +1660,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F163",
@@ -1499,7 +1670,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F164",
@@ -1508,7 +1680,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F165",
@@ -1517,7 +1690,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F166",
@@ -1526,7 +1700,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F167",
@@ -1535,7 +1710,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "poradi": 12,
+   "pouzit": true
   },
   {
    "id": "F168",
@@ -1544,7 +1721,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F169",
@@ -1553,7 +1731,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F170",
@@ -1562,7 +1741,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "poradi": 4,
+   "pouzit": true
   },
   {
    "id": "F171",
@@ -1571,16 +1752,19 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F172",
    "zdroj": "vd-fotky-b_01_9998103266887957.jpg",
    "kategorie": "pokoje",
-   "hlavni": false,
+   "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "poradi": 17,
+   "pouzit": true
   },
   {
    "id": "F173",
@@ -1589,7 +1773,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F174",
@@ -1598,7 +1783,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F175",
@@ -1607,7 +1793,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F176",
@@ -1616,7 +1803,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F177",
@@ -1625,7 +1813,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "poradi": 5,
+   "pouzit": true
   },
   {
    "id": "F178",
@@ -1634,7 +1824,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F179",
@@ -1643,7 +1834,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F180",
@@ -1652,7 +1844,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F181",
@@ -1661,7 +1854,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F182",
@@ -1670,7 +1864,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F183",
@@ -1679,7 +1874,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F184",
@@ -1688,7 +1884,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F185",
@@ -1697,7 +1894,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F186",
@@ -1706,7 +1904,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F187",
@@ -1715,7 +1914,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F188",
@@ -1724,7 +1924,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F189",
@@ -1733,7 +1934,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F190",
@@ -1742,7 +1944,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "poradi": 6,
+   "pouzit": true
   },
   {
    "id": "F191",
@@ -1751,7 +1955,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F192",
@@ -1760,7 +1965,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1200,
-   "h": 1200
+   "h": 1200,
+   "pouzit": true
   },
   {
    "id": "F193",
@@ -1769,7 +1975,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1200,
-   "h": 1200
+   "h": 1200,
+   "poradi": 26,
+   "pouzit": true
   },
   {
    "id": "F194",
@@ -1778,7 +1986,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1365,
-   "h": 1365
+   "h": 1365,
+   "pouzit": true
   },
   {
    "id": "F195",
@@ -1787,7 +1996,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1365,
-   "h": 1365
+   "h": 1365,
+   "poradi": 7,
+   "pouzit": true
   },
   {
    "id": "F196",
@@ -1796,7 +2007,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1365,
-   "h": 1365
+   "h": 1365,
+   "pouzit": true
   },
   {
    "id": "F197",
@@ -1805,7 +2017,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1365,
-   "h": 1365
+   "h": 1365,
+   "pouzit": true
   },
   {
    "id": "F198",
@@ -1814,7 +2027,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1365,
-   "h": 1365
+   "h": 1365,
+   "pouzit": true
   },
   {
    "id": "F199",
@@ -1823,7 +2037,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1365,
-   "h": 1365
+   "h": 1365,
+   "pouzit": true
   },
   {
    "id": "F200",
@@ -1832,7 +2047,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1365,
-   "h": 1365
+   "h": 1365,
+   "pouzit": true
   },
   {
    "id": "F201",
@@ -1841,7 +2057,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1365,
-   "h": 1365
+   "h": 1365,
+   "pouzit": true
   },
   {
    "id": "F202",
@@ -1850,7 +2067,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1365,
-   "h": 1365
+   "h": 1365,
+   "pouzit": true
   },
   {
    "id": "F203",
@@ -1859,7 +2077,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1365,
-   "h": 1365
+   "h": 1365,
+   "pouzit": true
   },
   {
    "id": "F204",
@@ -1868,7 +2087,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F205",
@@ -1877,7 +2097,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "poradi": 13,
+   "pouzit": true
   },
   {
    "id": "F206",
@@ -1886,7 +2108,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F207",
@@ -1895,7 +2118,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F208",
@@ -1904,7 +2128,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1120,
-   "h": 1400
+   "h": 1400,
+   "poradi": 21,
+   "pouzit": true
   },
   {
    "id": "F209",
@@ -1913,7 +2139,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F210",
@@ -1922,7 +2149,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F211",
@@ -1931,7 +2159,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F212",
@@ -1940,7 +2169,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F213",
@@ -1949,7 +2179,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "poradi": 8,
+   "pouzit": true
   },
   {
    "id": "F214",
@@ -1958,7 +2190,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F215",
@@ -1967,7 +2200,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F216",
@@ -1976,7 +2210,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F217",
@@ -1985,7 +2220,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F218",
@@ -1994,7 +2230,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "poradi": 9,
+   "pouzit": true
   },
   {
    "id": "F219",
@@ -2003,7 +2241,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F220",
@@ -2012,7 +2251,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F221",
@@ -2021,7 +2261,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F222",
@@ -2030,7 +2271,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F223",
@@ -2039,7 +2281,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F224",
@@ -2048,7 +2291,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F225",
@@ -2057,7 +2301,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F226",
@@ -2066,7 +2311,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "poradi": 14,
+   "pouzit": true
   },
   {
    "id": "F227",
@@ -2075,7 +2322,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F229",
@@ -2084,7 +2332,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "poradi": 27,
+   "pouzit": true
   },
   {
    "id": "F230",
@@ -2093,7 +2343,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F231",
@@ -2102,7 +2353,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F232",
@@ -2111,7 +2363,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F234",
@@ -2120,7 +2373,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F235",
@@ -2129,7 +2383,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F236",
@@ -2138,7 +2393,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F242",
@@ -2147,7 +2403,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "poradi": 15,
+   "pouzit": true
   },
   {
    "id": "F243",
@@ -2156,7 +2414,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F248",
@@ -2165,7 +2424,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F249",
@@ -2174,7 +2434,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F250",
@@ -2183,7 +2444,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "poradi": 10,
+   "pouzit": true
   },
   {
    "id": "F255",
@@ -2192,7 +2455,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   },
   {
    "id": "F256",
@@ -2201,7 +2465,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "poradi": 11,
+   "pouzit": true
   },
   {
    "id": "F257",
@@ -2210,7 +2476,9 @@
    "hlavni": true,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "poradi": 18,
+   "pouzit": true
   },
   {
    "id": "F258",
@@ -2219,7 +2487,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1400,
-   "h": 1050
+   "h": 1050,
+   "pouzit": true
   },
   {
    "id": "F260",
@@ -2228,7 +2497,8 @@
    "hlavni": false,
    "odkud": "profil",
    "w": 1050,
-   "h": 1400
+   "h": 1400,
+   "pouzit": true
   }
  ]
 }
