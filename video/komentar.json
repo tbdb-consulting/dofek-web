@@ -1,0 +1,32 @@
+{
+  "uvod": "Stolařství Dofek. Nový web, poptávka z mobilu a kancelář pro celou firmu. Ukážeme, jak s tím pracuje zákazník, jak stolař a jaké další moduly může firma mít. Všechna jména a čísla jsou vymyšlená.",
+
+  "z_00": "Začneme u zákazníka. Otevře web stolařství v telefonu.",
+  "z_01": "Nahoře vidí ukázky práce. Klepne na tlačítko Poslat poptávku z mobilu.",
+  "z_02": "Vybere, co chce. Tady vestavěnou skříň.",
+  "z_03": "Vyfotí místo, kam nábytek patří. Telefon rovnou otevře fotoaparát. Může přidat i krátké video.",
+  "z_04": "Pak řekne, co chce. Buď to namluví tlačítkem s mikrofonem, nebo napíše.",
+  "z_05": "Vyplní jméno a telefon, potvrdí souhlas se zpracováním údajů a odešle.",
+  "z_06": "Hotovo. Zákazník ví, co bude dál. Na testovacím webu se zatím nic neodesílá.",
+
+  "v_00": "Teď stolař. Poptávka mu přijde do správy poptávek a uvidí ji v seznamu jako novou.",
+  "v_01": "Otevře ji a má všechno pohromadě: fotky, video, hlasovou zprávu i její přepis.",
+  "v_02": "Jedním tlačítkem si nechá připravit rozbor. Typ nábytku, rozměry, materiál a co ověřit při zaměření. Všechno může přepsat.",
+  "v_03": "Pak vytvoří vizualizaci z fotky zákazníka. Dvě varianty, které přiloží k nabídce. V ukázce jsou to kresby, ve skutečném provozu obrázek z umělé inteligence přímo nad fotkou.",
+  "v_04": "Nacenění navrhne položky z jeho ceníku. Stolař upraví množství a rozpětí ceny se hned přepočítá. Ceník v ukázce je vymyšlený.",
+  "v_05": "Z toho vznikne text předběžné nabídky. Stolař ho upraví a odešle. Přesnou cenu řekne až po zaměření.",
+  "v_06": "Po potvrzení se poptávka přesune mezi odeslané.",
+
+  "moduly": "A teď kancelář. Návrh dalších modulů pro firmu, jako je stolařství: zakázky, materiál, náklady, cesty, čas a mzdy.",
+
+  "k_00": "Nástěnka ráno ukáže, co je dnes a tento týden. A co hlídat: dochází materiál, zakázka přetahuje hodiny, je co fakturovat.",
+  "k_01": "Zakázky od poptávky po fakturu. Stav, termín, cena z nabídky a kolik zatím stály.",
+  "k_02": "Kalendář zaměření, výroby, montáží a dovozů materiálu.",
+  "k_03": "Materiál a sklad. Desky, hrany a kování. Když něco klesne pod minimum, nabídne objednávku.",
+  "k_04": "Náklady zakázek. Materiál, práce z docházky, režie dílny a ujeté kilometry. Hned je vidět, jestli zakázka vydělala.",
+  "k_05": "Cesty a auta. Kniha jízd z telefonu, kilometry se přičtou k zakázce.",
+  "k_06": "Docházka. Každý v telefonu zapne a vypne čas na konkrétní zakázce.",
+  "k_07": "A na konci měsíce z toho vznikne podklad pro mzdy, který odejde účetní. Samotné mzdy a odvody počítá účetní.",
+
+  "zaver": "To je celý návrh. Všechno je zatím ukázka s vymyšlenými daty. Dalším krokem je schůzka se stolařem: jeho ceník, fotky a souhlas, a potom ostré napojení poptávek."
+}

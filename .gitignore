@@ -1,2 +1,8 @@
 node_modules/
 _site/
+video/wav/
+video/zaznam/
+video/seg/
+video/*.png
+video/*.mp4
+video/*.txt
