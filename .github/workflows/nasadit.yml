@@ -1,0 +1,78 @@
+# Nasazení webu Stolařství DOFEK na testovací adresu https://tbdb-consulting.github.io/dofek-web/
+# Podle šablony TBDB (tbdb\Šablony\github\nasadit-pages.yml), navíc sestavení Eleventy jako u hb-web.
+#
+# Po každém push do main:
+#   1. zkontroluje celou historii na tajné údaje (gitleaks) – když najde, nic se nezveřejní,
+#   2. sestaví web (testovací verze: noindex a žlutý pruh),
+#   3. zveřejní složku _site,
+#   4. ověří, že živý web vrací přesně sestavenou úvodní stránku.
+
+name: Nasadit web
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  WEB: _site
+  KONTROLNI_SOUBOR: index.html
+
+jobs:
+  nasadit:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.nasazeni.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # celá historie: kontrola tajných údajů a číslo buildu
+
+      - name: Kontrola tajných údajů
+        run: |
+          docker run --rm -v "$PWD:/repo" zricethezav/gitleaks:v8.18.4 \
+            detect --source /repo --redact --verbose --no-banner
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Sestavit web
+        env:
+          ZAKLAD_URL: /dofek-web
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+          test -f _site/index.html && test -f _site/reference/index.html
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.WEB }}
+
+      - id: nasazeni
+        uses: actions/deploy-pages@v4
+
+      - name: Ověřit živý web
+        env:
+          URL: ${{ steps.nasazeni.outputs.page_url }}
+        run: |
+          for i in $(seq 1 30); do
+            if curl -fsS "${URL}${KONTROLNI_SOUBOR}?cb=${GITHUB_SHA}" -o zivy.html && \
+               cmp -s zivy.html "${WEB}/${KONTROLNI_SOUBOR}"; then
+              echo "Web běží s verzí ${GITHUB_SHA::7}: ${URL}"; exit 0
+            fi
+            sleep 10
+          done
+          echo "Živý web se do 5 minut neshoduje s nahranou verzí: ${URL}"; exit 1

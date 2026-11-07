@@ -6,8 +6,10 @@ Kontext zakázky: `C:\Projekty TBDB\tbdb\Klienti\Dofek\KONTEXT.md`.
 
 ## Stav k 7. 11. 2026
 
-- Soukromý repozitář `tbdb-consulting/dofek-web` (od 7. 11. 2026), **nezveřejněno**. Testovací adresa
-  zatím není: GitHub Pages jde na bezplatném plánu organizace jen z veřejného repozitáře.
+- Veřejný repozitář `tbdb-consulting/dofek-web` (Pages jde na bezplatném plánu jen z veřejného).
+  Testovací adresa **https://tbdb-consulting.github.io/dofek-web/** – zveřejněno se souhlasem Keksy
+  7. 11. 2026, ještě bez souhlasu majitele s fotkami (doplnit). Nasazuje `.github/workflows/nasadit.yml`
+  po každém push do `main` (kontrola tajných údajů, sestavení, ověření živého webu).
 - Stránky: úvod, Reference, Poptávka (formulář z mobilu – zatím nic neodesílá), Kontakt, Ochrana údajů (návrh).
 - Žlutě `[DOPLNIT …]` = údaj, který musí dodat stolař (montáž, materiály, zpracovatelé dat).
 - Testovací verze má `noindex` a žlutý pruh nahoře. Ostrá verze: `OSTRY=1 npm run build`.
