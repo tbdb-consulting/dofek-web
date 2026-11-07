@@ -37,7 +37,7 @@ nastroje/vyber_fotek.py  HTML formulář pro výběr fotek (Otázky zákazníka 
 ## Fotky
 
 Zdroj: facebooková stránka Stolařství DOFEK a profil Václava Dofka, staženo 7. 11. 2026 do
-`C:\Users\Dell\Můj disk\Claude AI\TBDB\Zákazníci\Stolařství Dofek\Fotky\Facebook\vse\`.
+`C:\Users\Dell\Můj disk\Claude AI\TBDB\Zákazníci\T26-08 Stolařství Dofek\Fotky\Facebook\vse\`.
 Soukromé fotky z profilu vyřazené a smazané. Výběr udělal Keksa 7. 11. 2026 ve formuláři
 `Otázky\261107_T26-08-1_vyber_fotek.html`: v `fotky.json` je `hlavni` + `poradi` (úvodní stránka,
 27 fotek), `pouzit: false` = nepoužít (10 fotek dílny), ostatní jdou do Referencí (206).

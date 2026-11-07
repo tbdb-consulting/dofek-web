@@ -67,7 +67,7 @@ button{background:var(--tbdb);color:#fff;border:0;border-radius:5px;padding:11px
 <p>7. 11. 2026 · nejlepší na hlavní stránky, ostatní do Referencí · klepnutím na fotku ji otevřete ve velkém</p></div></header>
 <div class="wrap">
 <div class="path">Tento soubor:<code>__CESTA__</code>
-Fotky v plné velikosti:<code>C:\\Users\\Dell\\Můj disk\\Claude AI\\TBDB\\Zákazníci\\Stolařství Dofek\\Fotky\\Facebook\\vse\\</code>
+Fotky v plné velikosti:<code>C:\\Users\\Dell\\Můj disk\\Claude AI\\TBDB\\Zákazníci\\T26-08 Stolařství Dofek\\Fotky\\Facebook\\vse\\</code>
 Zdroj: facebooková stránka Stolařství DOFEK (starší realizace, malé rozlišení) a profil Václava Dofka (novější realizace, ostřejší). Soukromé fotky z profilu jsem vyřadil a smazal.<br>
 <b>Předvyplněno:</b> zelený rámeček a štítek DOPORUČUJI = můj návrh na hlavní stránku. „Použít na webu“ bez „Na hlavní stránku“ = sekce Reference. Fotky dílny jsou předvyplněné jako nepoužité.
 <div id="stav"></div></div>
