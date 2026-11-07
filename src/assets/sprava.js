@@ -182,7 +182,8 @@
       "Co navrhujeme: " + r.typ + "\nRozměry: " + r.rozmery + "\nMateriál: " + r.material + "\nVybavení: " + r.vnitrek + "\n\n" +
       "Orientační cena: " + kc(c.od) + " – " + kc(c.do) + " včetně dopravy a montáže.\n" +
       "Přesnou cenu řeknu po zaměření, kde ověříme:\n- " + r.overit.join("\n- ") + "\n\n" +
-      (p.vizualizace && p.vizualizace.length ? "V příloze je ilustrační obrázek pro představu, nejde o výkres.\n\n" : "") +
+      (p.vizualizace && p.vizualizace.length > 1 ? "V příloze jsou ilustrační obrázky pro představu, nejde o výkresy.\n\n" :
+        p.vizualizace && p.vizualizace.length ? "V příloze je ilustrační obrázek pro představu, nejde o výkres.\n\n" : "") +
       "Pokud Vám to cenově vyhovuje, domluvíme termín zaměření.\n\nS pozdravem\nVáclav Dofek\nStolařství DOFEK\ntel. 603 164 240";
   }
 
