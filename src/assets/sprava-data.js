@@ -15,11 +15,21 @@ window.CENIK = {
     { kod: "kovani-tiche", nazev: "Kování s tichým dovíráním", jednotka: "ks", od: 450, do: 700 },
     { kod: "led", nazev: "LED osvětlení pod skříňky", jednotka: "bm", od: 900, do: 1400 },
     { kod: "police-masiv", nazev: "Police z masivu", jednotka: "bm", od: 2400, do: 3400 },
+    { kod: "atyp-sikmina", nazev: "Příplatek za šikminu (atyp)", jednotka: "bm", od: 1500, do: 2500 },
     { kod: "montaz", nazev: "Doprava a montáž", jednotka: "×", od: 3500, do: 6000 }
   ]
 };
 
 window.POPTAVKY = [
+  {
+    // Vzorová poptávka (Keksa 7. 11. 2026: „vymysli vzorovou“) – celý postup od přijetí po odeslání.
+    id: "P-0004", prijato: "7. 11. 2026 20:17", stav: "nova", scena: "podkrovi",
+    zakaznik: { jmeno: "Tomáš Testovací", tel: "000 000 004", email: "tomas@example.com", obec: "Brno-Žabovřesky" },
+    typ: ["Vestavěná skříň", "Podkroví"], rozpocet: "30–60 000 Kč", termin: "do 3 měsíců",
+    media: { fotky: 3, video: "0:35", hlas: "1:12" },
+    prepis: "Dobrý den, posílám fotky a krátké video z podkroví. Potřebovali bychom vestavěnou skříň pod šikminu na stěnu, která má asi tři metry třicet. Nízká stěna má kolem metru, nejvyšší místo je dva metry čtyřicet. Hloubka by mohla být šedesát. Chtěli bychom ji bílou, matnou, bez úchytek, a v té nižší části šuplíky. Uvnitř tyče na oblečení tam, kde je to vysoké. Na videu je vidět okno – to musí zůstat volné. Děkuju.",
+    rozbor: null, kalkulace: null, vizualizace: null
+  },
   {
     id: "P-0003", prijato: "7. 11. 2026 18:42", stav: "nova",
     zakaznik: { jmeno: "Jana Ukázková", tel: "000 000 003", email: "jana@example.com", obec: "Brno-Líšeň" },

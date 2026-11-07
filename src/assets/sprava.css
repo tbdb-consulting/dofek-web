@@ -51,3 +51,8 @@ blockquote { margin: 0; background: var(--drevo-svetle); border-left: 4px solid 
 .dlg { border: 0; border-radius: 12px; padding: 20px; max-width: 30rem; }
 .dlg::backdrop { background: rgba(0,0,0,.45); }
 .dlg-tlacitka { display: flex; gap: 10px; justify-content: flex-end; }
+.mfoto-svg { background: none; overflow: hidden; position: relative; }
+.mfoto-svg svg { width: 92px; height: 92px; object-fit: cover; display: block; }
+.mfoto-svg span { position: absolute; bottom: 2px; left: 4px; background: #fffc; border-radius: 4px; padding: 0 4px; }
+.vizu-pred { margin-bottom: 10px; }
+@media (min-width: 46rem) { .vizu-pred { grid-template-columns: 1fr 1fr; } }

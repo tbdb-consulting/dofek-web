@@ -64,14 +64,40 @@
     for (var c = 1; c < 4; c++) s += '<rect x="' + (20 + c * 70) + '" y="14" width="4" height="182" fill="#ddd"/>';
     return s + "</svg>";
   }
+  // Podkroví zákazníka (vzorová poptávka P-0004): "foto" = prázdný pokoj, A/B = stejný pokoj se skříní.
+  function svgPodkrovi(v) {
+    var s = '<svg viewBox="0 0 320 220" role="img" aria-label="' + (v === "foto" ? "Fotka zákazníka: podkroví se šikminou" : "Ilustrační skříň v podkroví, varianta " + v) + '">' +
+      '<rect width="320" height="220" fill="#d9d2c7"/><polygon points="0,0 200,0 0,120" fill="#efe9df"/><polygon points="0,120 200,0 320,0 320,190 0,190" fill="#ece5da"/>' +
+      '<rect y="190" width="320" height="30" fill="#b89b78"/><line x1="0" y1="120" x2="200" y2="0" stroke="#c9bfb1" stroke-width="2"/>' +
+      '<rect x="236" y="40" width="58" height="80" fill="#cfe3ef" stroke="#fff" stroke-width="5"/><line x1="265" y1="40" x2="265" y2="120" stroke="#fff" stroke-width="3"/>';
+    if (v === "foto") return s + '<rect x="40" y="186" width="120" height="4" fill="#9c8466"/></svg>';
+    var bila = "#fbfbf9", hrana = "#d6d0c6", x0 = 10, x1 = 214, hn = 132; // skříň končí před oknem
+    s += '<polygon points="' + x0 + ',' + (190 - 64) + ' ' + x0 + ',190 ' + x1 + ',190 ' + x1 + ',' + (190 - hn - 50) + ' ' + (x0 + 120) + ',' + (190 - hn - 50) + ' " fill="' + bila + '" stroke="' + hrana + '"/>';
+    s += '<polygon points="' + x0 + ',126 ' + (x0 + 120) + ',' + (190 - hn - 50) + ' ' + x1 + ',' + (190 - hn - 50) + ' ' + x1 + ',' + (190 - hn - 50) + '" fill="none" stroke="' + hrana + '"/>';
+    for (var x = x0 + 40; x < x1; x += 40) s += '<line x1="' + x + '" y1="190" x2="' + x + '" y2="' + Math.max(190 - hn - 50, 126 - (x - x0) * 0.6) + '" stroke="' + hrana + '"/>';
+    s += '<line x1="' + x0 + '" y1="160" x2="' + (x0 + 80) + '" y2="160" stroke="' + hrana + '"/><line x1="' + x0 + '" y1="175" x2="' + (x0 + 80) + '" y2="175" stroke="' + hrana + '"/>';
+    if (v === "B") s += '<rect x="' + x0 + '" y="186" width="' + (x1 - x0) + '" height="4" fill="#c39a6b"/><rect x="' + (x1 + 4) + '" y="150" width="14" height="40" fill="#c39a6b"/><rect x="' + (x1 + 4) + '" y="128" width="14" height="4" fill="#c39a6b"/>';
+    return s + "</svg>";
+  }
   function vizu(p, v) {
+    if (p.scena === "podkrovi") return svgPodkrovi(v);
     var t = p.typ.join(" ").toLowerCase();
     return t.indexOf("kuch") >= 0 ? svgKuchyne(v) : t.indexOf("skří") >= 0 ? svgSkrin(v) : svgPolice();
   }
   var POPIS_VARIANT = { A: "A – podle přání zákazníka", B: "B – alternativa (jiné dveře / materiál)" };
+  var POPIS_PODKROVI = { A: "A – bílá matná bez úchytek, šuplíky v nízké části", B: "B – totéž s dubovou soklovou lištou a otevřenou policí u okna" };
 
   // ---------- ukázkové „AI“ výsledky pro novou poptávku ----------
   var AI = {
+    "P-0004": {
+      rozbor: { typ: "Vestavěná skříň pod šikmou střechu (podkroví)",
+        rozmery: "stěna cca 3,30 m · nízká stěna cca 1,0 m · nejvýš 2,40 m · hloubka 0,60 m (z hlasu, neměřeno); skříň končí před oknem, odhad délky 2,60 m",
+        material: "Bílé matné lamino, bez úchytek (otevírání na dotyk)",
+        vnitrek: "Tyče na oblečení ve vysoké části, šuplíky v nízké části",
+        overit: ["Úhel šikminy a přesné rozměry stěny", "Kde začíná okno – skutečná délka skříně (odhad 2,60 m)", "Rovinnost stropu a podlahy (sádrokarton, podlahové topení?)", "Otevírání na dotyk, nebo úchytky (cena)"] },
+      kalkulace: [{ kod: "korpus-lamino", mnozstvi: 2.6 }, { kod: "atyp-sikmina", mnozstvi: 2.6 }, { kod: "dvirka-lamino", mnozstvi: 4.5 },
+        { kod: "vnitrni-vybaveni", mnozstvi: 2 }, { kod: "kovani-tiche", mnozstvi: 10 }, { kod: "montaz", mnozstvi: 1 }]
+    },
     "P-0003": {
       rozbor: { typ: "Rohová kuchyňská linka (tvar L), horní skříňky ke stropu", rozmery: "stěny cca 3,00 m a 1,80 m (z hlasu, neměřeno); výšku stropu ověřit",
         material: "Bílá matná dvířka bez úchytek, pracovní deska dub", vnitrek: "Vestavná trouba a myčka zákazníka",
@@ -94,8 +120,8 @@
 
     // 1. Co poslal
     h += '<section class="dkarta"><h2>1. Co poslal zákazník</h2><div class="media">';
-    for (var i = 1; i <= p.media.fotky; i++) h += '<div class="mfoto">📷<span>Fotka ' + i + "</span></div>";
-    if (p.media.video) h += '<div class="mfoto">🎬<span>Video</span></div>';
+    for (var i = 1; i <= p.media.fotky; i++) h += (p.scena && i === 1) ? '<div class="mfoto mfoto-svg">' + vizu(p, "foto") + '<span>Fotka 1</span></div>' : '<div class="mfoto">📷<span>Fotka ' + i + "</span></div>";
+    if (p.media.video) h += '<div class="mfoto">🎬<span>Video' + (typeof p.media.video === "string" ? " " + p.media.video : "") + "</span></div>";
     h += "</div>" + (p.media.hlas ? '<p><b>Hlasová zpráva ' + p.media.hlas + '</b> <span class="pozn">(v ukázce bez zvuku)</span></p>' : "") +
       '<p><b>Přepis' + (p.media.hlas ? " (automaticky)" : "") + ':</b></p><blockquote>' + esc(p.prepis) + "</blockquote></section>";
 
@@ -113,8 +139,8 @@
     // 3. Vizualizace
     h += '<section class="dkarta"><h2>3. Vizualizace <small>ilustrační obrázek, ne výkres</small></h2>';
     if (!p.vizualizace) h += p.rozbor ? '<button class="tlacitko" data-akce="vizu">Vytvořit 2 varianty z fotky zákazníka</button>' : '<p class="pozn">Nejdřív rozbor.</p>';
-    else h += '<div class="vizu">' + ["A", "B"].map(function (v) {
-      return "<figure>" + vizu(p, v) + '<figcaption><label><input type="checkbox" data-v="' + v + '"' + (p.vizualizace.indexOf(v) >= 0 ? " checked" : "") + "> Přiložit k nabídce</label> " + POPIS_VARIANT[v] + "</figcaption></figure>";
+    else h += (p.scena ? '<p class="pozn">Výchozí fotka zákazníka:</p><div class="vizu vizu-pred"><figure>' + vizu(p, "foto") + '<figcaption>Fotka 1 od zákazníka (v ukázce kresba)</figcaption></figure></div>' : "") + '<div class="vizu">' + ["A", "B"].map(function (v) {
+      return "<figure>" + vizu(p, v) + '<figcaption><label><input type="checkbox" data-v="' + v + '"' + (p.vizualizace.indexOf(v) >= 0 ? " checked" : "") + "> Přiložit k nabídce</label> " + (p.scena === "podkrovi" ? POPIS_PODKROVI[v] : POPIS_VARIANT[v]) + "</figcaption></figure>";
     }).join("") + '</div><p class="pozn">V ukázce jednoduchá kresba. V ostrém provozu obrázek z AI nad fotkou zákazníka; tlačítko „Jinak“ vytvoří další variantu podle vašeho pokynu.</p>';
     h += "</section>";
 
