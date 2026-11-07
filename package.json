@@ -1,0 +1,15 @@
+{
+  "name": "dofek-web",
+  "version": "0.1.0",
+  "description": "Stolařství DOFEK – nový web (T26-08-1). Statické stránky z Eleventy, stejný základ jako hb-web.",
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.6"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

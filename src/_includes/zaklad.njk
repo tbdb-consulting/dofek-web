@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if titulek %}{{ titulek }} – {% endif %}{{ firma.nazev }}, {{ firma.podtitul | lower }} Brno</title>
+<meta name="description" content="{{ popis or 'Stolařství DOFEK v Brně – nábytek na míru: kuchyně, vestavěné skříně, ložnice, koupelny i vybavení firem. Poptávku pošlete z mobilu s fotkou.' }}">
+<meta property="og:title" content="{% if titulek %}{{ titulek }} – {% endif %}{{ firma.nazev }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="cs_CZ">
+{%- if web.testovaci %}
+<meta name="robots" content="noindex, nofollow">{# testovací verze – na doménu stolařství až po schválení #}
+{%- endif %}
+<link rel="stylesheet" href="{{ web.zaklad }}/assets/styl.css">
+</head>
+<body>
+<a class="preskocit" href="#obsah">Přeskočit na obsah</a>
+{%- if web.testovaci %}
+<div class="testovaci">Testovací verze webu (TBDB) – texty a fotky ke schválení, poptávka se zatím neodesílá.</div>
+{%- endif %}
+<header class="hlavicka">
+  <div class="obal hlavicka-obal">
+    <a class="znacka" href="{{ web.zaklad }}/"><span>Stolařství</span> DOFEK</a>
+    <button class="menu-tlacitko" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" class="menu" aria-label="Hlavní nabídka">
+      <ul>
+        {%- set polozky = [["/#vyrabime","Co vyrábíme"],["/reference/","Reference"],["/#jak","Jak to probíhá"],["/kontakt/","Kontakt"]] %}
+        {%- for p in polozky %}
+        <li><a href="{{ web.zaklad }}{{ p[0] }}"{% if p[0] == page.url %} aria-current="page"{% endif %}>{{ p[1] }}</a></li>
+        {%- endfor %}
+        <li><a class="menu-cta" href="{{ web.zaklad }}/poptavka/"{% if page.url == "/poptavka/" %} aria-current="page"{% endif %}>Poslat poptávku</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="obsah">
+{{ content | safe }}
+</main>
+
+<footer class="paticka">
+  <div class="obal paticka-obal">
+    <div>
+      <p class="paticka-nazev">{{ firma.nazev }}</p>
+      <p>{{ firma.adresa }}<br>{{ firma.adresaUpresneni }}</p>
+    </div>
+    <div>
+      <p><a href="tel:{{ firma.telefonOdkaz }}">{{ firma.telefon | nezalom }}</a><br>
+      <a href="mailto:{{ firma.email }}">{{ firma.email }}</a><br>
+      {{ firma.oteviraciDoba | nezalom }}</p>
+    </div>
+    <div>
+      <p>IČO {{ firma.ico }}<br>
+      <a href="{{ firma.facebook }}" rel="noopener">Facebook</a> ·
+      <a href="{{ web.zaklad }}/zasady/">Ochrana osobních údajů</a></p>
+      <p class="verze" title="{{ web.commit }}">{{ web.verze }} · build {{ web.build }} · {{ web.sestaveno }}</p>
+    </div>
+  </div>
+</footer>
+
+<dialog class="prohlizec" id="prohlizec" aria-label="Fotka ve velkém">
+  <button class="prohlizec-zavrit" aria-label="Zavřít">×</button>
+  <button class="prohlizec-sipka vlevo" aria-label="Předchozí fotka">‹</button>
+  <img alt="">
+  <button class="prohlizec-sipka vpravo" aria-label="Další fotka">›</button>
+  <p class="prohlizec-popis"></p>
+</dialog>
+<script src="{{ web.zaklad }}/assets/web.js" defer></script>
+</body>
+</html>

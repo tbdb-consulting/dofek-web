@@ -1,0 +1,2234 @@
+{
+ "_poznamka": "Fotky z facebookové stránky Stolařství DOFEK a z profilu Václava Dofka, staženo 7. 11. 2026. hlavni=true: návrh Claude na hlavní stránky, čeká na výběr Keksy (Otázky/261107_T26-08-1_vyber_fotek.html).",
+ "kategorie": [
+  {
+   "kod": "kuchyne",
+   "nazev": "Kuchyně"
+  },
+  {
+   "kod": "skrine",
+   "nazev": "Vestavěné skříně a předsíně"
+  },
+  {
+   "kod": "loznice",
+   "nazev": "Ložnice"
+  },
+  {
+   "kod": "detske",
+   "nazev": "Dětské pokoje"
+  },
+  {
+   "kod": "pokoje",
+   "nazev": "Obývací pokoje a pracovny"
+  },
+  {
+   "kod": "police",
+   "nazev": "Knihovny a police"
+  },
+  {
+   "kod": "koupelny",
+   "nazev": "Koupelny"
+  },
+  {
+   "kod": "firmy",
+   "nazev": "Firmy, kanceláře, obchody, bary"
+  },
+  {
+   "kod": "terasy",
+   "nazev": "Pergoly a terasy"
+  },
+  {
+   "kod": "dilna",
+   "nazev": "Dílna"
+  }
+ ],
+ "fotky": [
+  {
+   "id": "F001",
+   "zdroj": "detsky_01_153415168025553.jpg",
+   "kategorie": "detske",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F002",
+   "zdroj": "detsky_02_153415181358885.jpg",
+   "kategorie": "detske",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F003",
+   "zdroj": "kavarny-bary_01_261589573874778.jpg",
+   "kategorie": "firmy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F004",
+   "zdroj": "kavarny-bary_02_261589550541447.jpg",
+   "kategorie": "firmy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F005",
+   "zdroj": "kavarny-bary_03_261589593874776.jpg",
+   "kategorie": "firmy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F006",
+   "zdroj": "kavarny-bary_04_153414208025649.jpg",
+   "kategorie": "firmy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F007",
+   "zdroj": "kavarny-bary_05_153414174692319.jpg",
+   "kategorie": "firmy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F008",
+   "zdroj": "kavarny-bary_06_153414211358982.jpg",
+   "kategorie": "firmy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F009",
+   "zdroj": "kavarny-bary_07_153414214692315.jpg",
+   "kategorie": "firmy",
+   "hlavni": true,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F010",
+   "zdroj": "koupelny_01_153413951359008.jpg",
+   "kategorie": "koupelny",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F011",
+   "zdroj": "koupelny_02_153413974692339.jpg",
+   "kategorie": "koupelny",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F012",
+   "zdroj": "koupelny_03_153413978025672.jpg",
+   "kategorie": "koupelny",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F013",
+   "zdroj": "koupelny_04_153413981359005.jpg",
+   "kategorie": "koupelny",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F014",
+   "zdroj": "koupelny_05_166435583390178.jpg",
+   "kategorie": "koupelny",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F015",
+   "zdroj": "koupelny_06_188978424469227.jpg",
+   "kategorie": "koupelny",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F016",
+   "zdroj": "kuchyne_01_200390159994720.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F017",
+   "zdroj": "kuchyne_02_200390579994678.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F018",
+   "zdroj": "kuchyne_03_190875787612824.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F019",
+   "zdroj": "kuchyne_04_190875464279523.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F020",
+   "zdroj": "kuchyne_05_188979494469120.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F021",
+   "zdroj": "kuchyne_06_188979204469149.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F022",
+   "zdroj": "kuchyne_07_188978904469179.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F023",
+   "zdroj": "kuchyne_08_166435066723563.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F024",
+   "zdroj": "kuchyne_09_166434233390313.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F025",
+   "zdroj": "kuchyne_10_156756547691415.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F026",
+   "zdroj": "kuchyne_11_156756551024748.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F027",
+   "zdroj": "kuchyne_12_156756527691417.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F028",
+   "zdroj": "kuchyne_13_154838821216521.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F029",
+   "zdroj": "kuchyne_14_154838817883188.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F030",
+   "zdroj": "kuchyne_15_154838804549856.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F031",
+   "zdroj": "kuchyne_16_153413611359042.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F032",
+   "zdroj": "kuchyne_17_153413618025708.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F033",
+   "zdroj": "kuchyne_18_153413621359041.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F034",
+   "zdroj": "kuchyne_19_153413558025714.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F035",
+   "zdroj": "kuchyne_20_153413554692381.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F036",
+   "zdroj": "kuchyne_21_153413561359047.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F037",
+   "zdroj": "kuchyne_22_153413564692380.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F038",
+   "zdroj": "kuchyne_23_153413514692385.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F039",
+   "zdroj": "kuchyne_24_153413518025718.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F040",
+   "zdroj": "kuchyne_25_153413521359051.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F041",
+   "zdroj": "kuchyne_26_153413501359053.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F042",
+   "zdroj": "kuchyne_27_153413624692374.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 539,
+   "h": 720
+  },
+  {
+   "id": "F043",
+   "zdroj": "kuchyne_29_204981342868935.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F044",
+   "zdroj": "kuchyne_30_207044715995931.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F045",
+   "zdroj": "kuchyne_31_237568316276904.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F046",
+   "zdroj": "kuchyne_32_433029100064157.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 639
+  },
+  {
+   "id": "F047",
+   "zdroj": "kuchyne_33_558166380883761.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F048",
+   "zdroj": "loznice_01_200391283327941.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F049",
+   "zdroj": "loznice_02_153414448025625.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F050",
+   "zdroj": "loznice_03_153414478025622.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F051",
+   "zdroj": "loznice_04_153414481358955.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 603,
+   "h": 720
+  },
+  {
+   "id": "F052",
+   "zdroj": "loznice_05_153414484692288.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 521
+  },
+  {
+   "id": "F053",
+   "zdroj": "loznice_06_153414488025621.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F054",
+   "zdroj": "loznice_07_153414491358954.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F055",
+   "zdroj": "loznice_08_153414524692284.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F056",
+   "zdroj": "loznice_09_153414528025617.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F057",
+   "zdroj": "loznice_10_153414531358950.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 460
+  },
+  {
+   "id": "F058",
+   "zdroj": "loznice_11_154840111216392.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F059",
+   "zdroj": "loznice_12_154840127883057.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F060",
+   "zdroj": "loznice_13_188980497802353.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F061",
+   "zdroj": "loznice_14_188980687802334.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F062",
+   "zdroj": "loznice_15_577949752238757.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 720
+  },
+  {
+   "id": "F063",
+   "zdroj": "loznice_16_577950745571991.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F064",
+   "zdroj": "loznice_17_577950748905324.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "F065",
+   "zdroj": "loznice_18_577950752238657.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F066",
+   "zdroj": "loznice_20_577950758905323.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "F067",
+   "zdroj": "ostatni-a_01_592818470751885.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "F068",
+   "zdroj": "ostatni-a_02_592818474085218.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "F069",
+   "zdroj": "ostatni-a_03_592818477418551.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "F070",
+   "zdroj": "ostatni-a_04_592818480751884.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "F071",
+   "zdroj": "ostatni-b_01_572981152735617.jpg",
+   "kategorie": "terasy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1400,
+   "h": 930
+  },
+  {
+   "id": "F072",
+   "zdroj": "ostatni-b_02_572981156068950.jpg",
+   "kategorie": "terasy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1400,
+   "h": 930
+  },
+  {
+   "id": "F073",
+   "zdroj": "ostatni-b_03_572981159402283.jpg",
+   "kategorie": "terasy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 930,
+   "h": 1400
+  },
+  {
+   "id": "F074",
+   "zdroj": "ostatni-b_04_572981162735616.jpg",
+   "kategorie": "terasy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1400,
+   "h": 930
+  },
+  {
+   "id": "F075",
+   "zdroj": "ostatni-b_05_572981166068949.jpg",
+   "kategorie": "terasy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 930,
+   "h": 1400
+  },
+  {
+   "id": "F076",
+   "zdroj": "ostatni-c_01_565693090131090.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 720
+  },
+  {
+   "id": "F077",
+   "zdroj": "ostatni-c_02_565693326797733.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 960
+  },
+  {
+   "id": "F078",
+   "zdroj": "ostatni-d_01_510254155674984.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 639
+  },
+  {
+   "id": "F079",
+   "zdroj": "ostatni-d_02_510254502341616.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 639
+  },
+  {
+   "id": "F080",
+   "zdroj": "ostatni-d_03_510254805674919.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 639
+  },
+  {
+   "id": "F081",
+   "zdroj": "ostatni-d_04_510255082341558.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 639
+  },
+  {
+   "id": "F082",
+   "zdroj": "ostatni-e_01_632821890084876.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 639
+  },
+  {
+   "id": "F083",
+   "zdroj": "policove_01_153414728025597.jpg",
+   "kategorie": "police",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F084",
+   "zdroj": "policove_02_154839337883136.jpg",
+   "kategorie": "police",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 361,
+   "h": 720
+  },
+  {
+   "id": "F085",
+   "zdroj": "policove_03_154839447883125.jpg",
+   "kategorie": "police",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F086",
+   "zdroj": "policove_04_207045569329179.jpg",
+   "kategorie": "police",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F087",
+   "zdroj": "provozovna_01_154843951216008.jpg",
+   "kategorie": "dilna",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F088",
+   "zdroj": "provozovna_02_154843967882673.jpg",
+   "kategorie": "dilna",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F089",
+   "zdroj": "provozovna_03_154843971216006.jpg",
+   "kategorie": "dilna",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F090",
+   "zdroj": "provozovna_04_154843974549339.jpg",
+   "kategorie": "dilna",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F091",
+   "zdroj": "provozovna_05_154843994549337.jpg",
+   "kategorie": "dilna",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F092",
+   "zdroj": "provozovna_06_154843997882670.jpg",
+   "kategorie": "dilna",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F093",
+   "zdroj": "provozovna_07_154844001216003.jpg",
+   "kategorie": "dilna",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F094",
+   "zdroj": "provozovna_08_154844004549336.jpg",
+   "kategorie": "dilna",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F095",
+   "zdroj": "provozovna_09_154844041215999.jpg",
+   "kategorie": "dilna",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F096",
+   "zdroj": "provozovna_10_154844044549332.jpg",
+   "kategorie": "dilna",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F097",
+   "zdroj": "realizace_01_1293574430676282.jpg",
+   "kategorie": "pokoje",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 1280,
+   "h": 720
+  },
+  {
+   "id": "F098",
+   "zdroj": "realizace_02_1293574457342946.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 528
+  },
+  {
+   "id": "F099",
+   "zdroj": "realizace_03_1293574487342943.jpg",
+   "kategorie": "pokoje",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 528,
+   "h": 960
+  },
+  {
+   "id": "F100",
+   "zdroj": "realizace_04_1293574524009606.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 528,
+   "h": 960
+  },
+  {
+   "id": "F101",
+   "zdroj": "realizace_05_1293574550676270.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 528,
+   "h": 960
+  },
+  {
+   "id": "F102",
+   "zdroj": "realizace_06_1293574607342931.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 528,
+   "h": 960
+  },
+  {
+   "id": "F103",
+   "zdroj": "realizace_07_1293574777342914.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 528,
+   "h": 960
+  },
+  {
+   "id": "F104",
+   "zdroj": "realizace_08_1293574797342912.jpg",
+   "kategorie": "police",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 528,
+   "h": 960
+  },
+  {
+   "id": "F105",
+   "zdroj": "realizace_09_1293574824009576.jpg",
+   "kategorie": "police",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 540
+  },
+  {
+   "id": "F106",
+   "zdroj": "realizace_10_1293574847342907.jpg",
+   "kategorie": "loznice",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 540
+  },
+  {
+   "id": "F107",
+   "zdroj": "realizace_11_1293574914009567.jpg",
+   "kategorie": "terasy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 640
+  },
+  {
+   "id": "F108",
+   "zdroj": "skrine_01_425104434189957.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 639,
+   "h": 960
+  },
+  {
+   "id": "F109",
+   "zdroj": "skrine_02_425104407523293.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 639,
+   "h": 960
+  },
+  {
+   "id": "F110",
+   "zdroj": "skrine_03_425104370856630.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 639,
+   "h": 960
+  },
+  {
+   "id": "F111",
+   "zdroj": "skrine_04_425104554189945.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 639,
+   "h": 960
+  },
+  {
+   "id": "F112",
+   "zdroj": "skrine_05_425104574189943.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 639,
+   "h": 960
+  },
+  {
+   "id": "F113",
+   "zdroj": "skrine_06_425104540856613.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 639,
+   "h": 960
+  },
+  {
+   "id": "F114",
+   "zdroj": "skrine_07_425104507523283.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 639,
+   "h": 960
+  },
+  {
+   "id": "F115",
+   "zdroj": "skrine_08_425104317523302.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 639,
+   "h": 960
+  },
+  {
+   "id": "F116",
+   "zdroj": "skrine_09_425104464189954.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 639
+  },
+  {
+   "id": "F117",
+   "zdroj": "skrine_10_207045169329219.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F118",
+   "zdroj": "skrine_11_203661443000925.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F119",
+   "zdroj": "skrine_12_203661306334272.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F120",
+   "zdroj": "skrine_13_203661026334300.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F121",
+   "zdroj": "skrine_14_153414914692245.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F122",
+   "zdroj": "skrine_15_153414941358909.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F123",
+   "zdroj": "skrine_16_153414944692242.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F124",
+   "zdroj": "skrine_17_153414961358907.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 479
+  },
+  {
+   "id": "F125",
+   "zdroj": "skrine_18_153414964692240.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F126",
+   "zdroj": "skrine_19_154837434549993.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F127",
+   "zdroj": "skrine_20_154837444549992.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F128",
+   "zdroj": "skrine_21_154837447883325.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F129",
+   "zdroj": "skrine_22_154837454549991.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F130",
+   "zdroj": "skrine_23_154837457883324.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F131",
+   "zdroj": "skrine_24_154838194549917.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 720,
+   "h": 540
+  },
+  {
+   "id": "F132",
+   "zdroj": "skrine_25_156756964358040.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F133",
+   "zdroj": "skrine_26_156756987691371.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 479,
+   "h": 720
+  },
+  {
+   "id": "F134",
+   "zdroj": "skrine_27_156756991024704.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F135",
+   "zdroj": "skrine_28_188981181135618.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F136",
+   "zdroj": "skrine_29_188981554468914.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 540,
+   "h": 720
+  },
+  {
+   "id": "F137",
+   "zdroj": "skrine_33_433020866731647.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 639,
+   "h": 960
+  },
+  {
+   "id": "F138",
+   "zdroj": "skrine_34_433025930064474.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 639
+  },
+  {
+   "id": "F139",
+   "zdroj": "skrine_35_433025980064469.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 639,
+   "h": 960
+  },
+  {
+   "id": "F140",
+   "zdroj": "skrine_36_433028463397554.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 639,
+   "h": 960
+  },
+  {
+   "id": "F141",
+   "zdroj": "terasa_01_428653203835080.jpg",
+   "kategorie": "terasy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 639
+  },
+  {
+   "id": "F142",
+   "zdroj": "terasa_02_428653237168410.jpg",
+   "kategorie": "terasy",
+   "hlavni": false,
+   "odkud": "stranka",
+   "w": 960,
+   "h": 639
+  },
+  {
+   "id": "F144",
+   "zdroj": "vd-fotky-a_01_29483356244602702.jpg",
+   "kategorie": "detske",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F145",
+   "zdroj": "vd-fotky-a_02_29483356237936036.jpg",
+   "kategorie": "pokoje",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F146",
+   "zdroj": "vd-fotky-a_03_29483356231269370.jpg",
+   "kategorie": "detske",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F147",
+   "zdroj": "vd-fotky-a_04_29106113635660300.jpg",
+   "kategorie": "police",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F148",
+   "zdroj": "vd-fotky-a_05_26985923831012635.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F149",
+   "zdroj": "vd-fotky-a_06_26985923827679302.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F150",
+   "zdroj": "vd-fotky-a_07_26985923824345969.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F151",
+   "zdroj": "vd-fotky-a_08_26985923821012636.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F152",
+   "zdroj": "vd-fotky-a_09_26985923817679303.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F153",
+   "zdroj": "vd-fotky-a_10_26985923814345970.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F154",
+   "zdroj": "vd-fotky-a_11_26985923811012637.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F155",
+   "zdroj": "vd-fotky-a_12_26985923807679304.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F156",
+   "zdroj": "vd-fotky-a_13_26985923804345971.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F157",
+   "zdroj": "vd-fotky-a_14_26985923801012638.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F158",
+   "zdroj": "vd-fotky-a_15_25668673986070966.jpg",
+   "kategorie": "skrine",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F159",
+   "zdroj": "vd-fotky-a_16_24391143267157384.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F160",
+   "zdroj": "vd-fotky-a_17_24391143263824051.jpg",
+   "kategorie": "police",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F161",
+   "zdroj": "vd-fotky-a_18_24391143260490718.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F162",
+   "zdroj": "vd-fotky-a_19_24391143257157385.jpg",
+   "kategorie": "police",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F163",
+   "zdroj": "vd-fotky-a_20_24391143253824052.jpg",
+   "kategorie": "pokoje",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F164",
+   "zdroj": "vd-fotky-a_21_24391143250490719.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F165",
+   "zdroj": "vd-fotky-a_22_24391143247157386.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F166",
+   "zdroj": "vd-fotky-a_23_24391143243824053.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F167",
+   "zdroj": "vd-fotky-a_24_24391143240490720.jpg",
+   "kategorie": "skrine",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F168",
+   "zdroj": "vd-fotky-a_25_24391143237157387.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F169",
+   "zdroj": "vd-fotky-a_26_10090348190996797.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F170",
+   "zdroj": "vd-fotky-a_27_10090348187663464.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F171",
+   "zdroj": "vd-fotky-a_28_10090348184330131.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F172",
+   "zdroj": "vd-fotky-b_01_9998103266887957.jpg",
+   "kategorie": "pokoje",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F173",
+   "zdroj": "vd-fotky-b_02_9949368281761456.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F174",
+   "zdroj": "vd-fotky-b_03_9708790879152532.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F175",
+   "zdroj": "vd-fotky-b_04_9708790815819205.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F176",
+   "zdroj": "vd-fotky-b_05_9708790719152548.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F177",
+   "zdroj": "vd-fotky-b_06_9708776589153961.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F178",
+   "zdroj": "vd-fotky-b_07_9708776585820628.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F179",
+   "zdroj": "vd-fotky-b_08_9708776575820629.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F180",
+   "zdroj": "vd-fotky-b_09_9708776569153963.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F181",
+   "zdroj": "vd-fotky-b_10_9708757409155879.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F182",
+   "zdroj": "vd-fotky-b_11_9708757362489217.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F183",
+   "zdroj": "vd-fotky-b_12_9708757282489225.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F184",
+   "zdroj": "vd-fotky-b_13_9708757225822564.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F185",
+   "zdroj": "vd-fotky-b_14_9708724572492496.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F186",
+   "zdroj": "vd-fotky-b_15_9708724535825833.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F187",
+   "zdroj": "vd-fotky-b_16_9708724459159174.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F188",
+   "zdroj": "vd-fotky-b_17_9708696112495342.jpg",
+   "kategorie": "firmy",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F189",
+   "zdroj": "vd-fotky-b_18_7962966640401640.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F190",
+   "zdroj": "vd-fotky-b_19_7962966637068307.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F191",
+   "zdroj": "vd-fotky-b_20_7962966633734974.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F192",
+   "zdroj": "vd-fotky-b_21_7659904587374515.jpg",
+   "kategorie": "firmy",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1200,
+   "h": 1200
+  },
+  {
+   "id": "F193",
+   "zdroj": "vd-fotky-b_22_7659904584041182.jpg",
+   "kategorie": "firmy",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1200,
+   "h": 1200
+  },
+  {
+   "id": "F194",
+   "zdroj": "vd-fotky-b_23_7642715805760060.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1365,
+   "h": 1365
+  },
+  {
+   "id": "F195",
+   "zdroj": "vd-fotky-b_24_7642715802426727.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1365,
+   "h": 1365
+  },
+  {
+   "id": "F196",
+   "zdroj": "vd-fotky-b_25_7642715799093394.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1365,
+   "h": 1365
+  },
+  {
+   "id": "F197",
+   "zdroj": "vd-fotky-b_26_7642715795760061.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1365,
+   "h": 1365
+  },
+  {
+   "id": "F198",
+   "zdroj": "vd-fotky-b_27_7642715792426728.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1365,
+   "h": 1365
+  },
+  {
+   "id": "F199",
+   "zdroj": "vd-fotky-b_28_7642715789093395.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1365,
+   "h": 1365
+  },
+  {
+   "id": "F200",
+   "zdroj": "vd-fotky-b_29_7642715785760062.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1365,
+   "h": 1365
+  },
+  {
+   "id": "F201",
+   "zdroj": "vd-fotky-b_30_7642715779093396.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1365,
+   "h": 1365
+  },
+  {
+   "id": "F202",
+   "zdroj": "vd-fotky-c_01_7642715775760063.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1365,
+   "h": 1365
+  },
+  {
+   "id": "F203",
+   "zdroj": "vd-fotky-c_02_7642715772426730.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1365,
+   "h": 1365
+  },
+  {
+   "id": "F204",
+   "zdroj": "vd-fotky-c_03_7198782303486748.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F205",
+   "zdroj": "vd-fotky-c_04_7198782300153415.jpg",
+   "kategorie": "skrine",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F206",
+   "zdroj": "vd-fotky-c_05_7198782296820082.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F207",
+   "zdroj": "vd-fotky-c_06_7194108480620797.jpg",
+   "kategorie": "police",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F208",
+   "zdroj": "vd-fotky-c_07_7123123914385921.jpg",
+   "kategorie": "police",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1120,
+   "h": 1400
+  },
+  {
+   "id": "F209",
+   "zdroj": "vd-fotky-c_08_6881473531884295.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F210",
+   "zdroj": "vd-fotky-c_09_6881469648551350.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F211",
+   "zdroj": "vd-fotky-c_10_6881469645218017.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F212",
+   "zdroj": "vd-fotky-c_11_6881469641884684.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F213",
+   "zdroj": "vd-fotky-c_12_6881469638551351.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F214",
+   "zdroj": "vd-fotky-c_13_6881469635218018.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F215",
+   "zdroj": "vd-fotky-c_14_6881469631884685.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F216",
+   "zdroj": "vd-fotky-c_15_6800775183287464.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F217",
+   "zdroj": "vd-fotky-c_16_6800775179954131.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F218",
+   "zdroj": "vd-fotky-c_17_6800768229954826.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F219",
+   "zdroj": "vd-fotky-c_18_6800768226621493.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F220",
+   "zdroj": "vd-fotky-c_19_6800768223288160.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F221",
+   "zdroj": "vd-fotky-c_20_6800768219954827.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F222",
+   "zdroj": "vd-fotky-c_21_6800768216621494.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F223",
+   "zdroj": "vd-fotky-c_22_6800768213288161.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F224",
+   "zdroj": "vd-fotky-c_23_6800768209954828.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1400
+  },
+  {
+   "id": "F225",
+   "zdroj": "vd-fotky-c_24_6371129536252033.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "F226",
+   "zdroj": "vd-fotky-c_25_6371129412918712.jpg",
+   "kategorie": "skrine",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F227",
+   "zdroj": "vd-fotky-c_26_6371129282918725.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F229",
+   "zdroj": "vd-fotky-c_29_6033731999991790.jpg",
+   "kategorie": "firmy",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F230",
+   "zdroj": "vd-fotky-c_30_6033731879991802.jpg",
+   "kategorie": "firmy",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F231",
+   "zdroj": "vd-fotky-d_01_6033731733325150.jpg",
+   "kategorie": "firmy",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F232",
+   "zdroj": "vd-fotky-d_02_6033731619991828.jpg",
+   "kategorie": "firmy",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F234",
+   "zdroj": "vd-fotky-d_04_5991492744215716.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F235",
+   "zdroj": "vd-fotky-d_05_5991492647549059.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "F236",
+   "zdroj": "vd-fotky-d_06_5944614545570203.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "F242",
+   "zdroj": "vd-fotky-d_14_5692426807455646.jpg",
+   "kategorie": "skrine",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F243",
+   "zdroj": "vd-fotky-d_16_5644330908931903.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "F248",
+   "zdroj": "vd-fotky-d_21_5545484112149917.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F249",
+   "zdroj": "vd-fotky-d_23_5533279456703716.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F250",
+   "zdroj": "vd-fotky-d_24_5520528084645520.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F255",
+   "zdroj": "vd-fotky-d_29_5235179299847068.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "F256",
+   "zdroj": "vd-fotky-d_30_5235179179847080.jpg",
+   "kategorie": "kuchyne",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F257",
+   "zdroj": "vd-fotky-d_31_5211240408907624.jpg",
+   "kategorie": "pokoje",
+   "hlavni": true,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F258",
+   "zdroj": "vd-fotky-d_32_5211240232240975.jpg",
+   "kategorie": "pokoje",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "id": "F260",
+   "zdroj": "vd-fotky-d_34_5140748775956788.jpg",
+   "kategorie": "skrine",
+   "hlavni": false,
+   "odkud": "profil",
+   "w": 1050,
+   "h": 1400
+  }
+ ]
+}

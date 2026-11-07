@@ -1,0 +1,32 @@
+---
+layout: zaklad.njk
+permalink: /reference/
+titulek: Reference
+popis: Reference Stolařství DOFEK – fotky hotových kuchyní, vestavěných skříní, ložnic, koupelen a vybavení firem.
+---
+<div class="obal sekce">
+  <h1>Reference</h1>
+  <p class="perex">Další ukázky naší práce – ty nejnovější najdete na <a href="{{ web.zaklad }}/#vyrabime">úvodní stránce</a>. Vyberte, co vás zajímá; klepnutím na fotku ji otevřete ve velkém.</p>
+  <nav class="filtr" aria-label="Druh nábytku">
+    <button type="button" data-filtr="" aria-pressed="true">Vše</button>
+    {%- for k in fotky.kategorie %}{% if k.kod != "dilna" and (fotky.fotky | reference | vKategorii(k.kod) | length) %}
+    <button type="button" data-filtr="{{ k.kod }}" aria-pressed="false">{{ k.nazev }}</button>
+    {%- endif %}{% endfor %}
+  </nav>
+
+  {%- for k in fotky.kategorie %}{% if k.kod != "dilna" %}
+  {%- set vk = fotky.fotky | reference | vKategorii(k.kod) %}
+  {%- if vk | length %}
+  <section class="ref-kategorie" id="{{ k.kod }}" data-kategorie="{{ k.kod }}">
+    <h2>{{ k.nazev }}</h2>
+    <div class="galerie" data-galerie>
+    {%- for f in vk %}
+      <a href="{{ web.zaklad }}/fotky/{{ f.id }}.jpg" data-popis="{{ k.nazev }}"><img loading="lazy" src="{{ web.zaklad }}/fotky/{{ f.id }}-n.jpg" width="600" height="{{ (600 * f.h / f.w) | round }}" alt="{{ k.nazev }} – realizace Stolařství DOFEK"></a>
+    {%- endfor %}
+    </div>
+  </section>
+  {%- endif %}
+  {%- endif %}{% endfor %}
+
+  <p class="stred"><a class="tlacitko" href="{{ web.zaklad }}/poptavka/">Chci něco podobného</a></p>
+</div>

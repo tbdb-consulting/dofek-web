@@ -1,0 +1,84 @@
+---
+layout: zaklad.njk
+permalink: /
+---
+{%- set uvod = fotky.fotky | najdi(firma.uvodniFoto) %}
+<section class="hero">
+  <img class="hero-foto" src="{{ web.zaklad }}/fotky/{{ uvod.id }}.jpg" width="{{ uvod.w }}" height="{{ uvod.h }}" alt="Kuchyně na míru od Stolařství DOFEK">
+  <div class="hero-text obal">
+    <p class="hero-nadpis">{{ firma.podtitul }}</p>
+    <h1>Kuchyně, skříně a nábytek přesně podle vás</h1>
+    <p class="hero-perex">Vyrábíme nábytek na míru pro domácnosti i firmy – z lamina, masivu i nestandardních materiálů. Brno, Vídeňská 99.</p>
+    <p class="hero-tlacitka">
+      <a class="tlacitko" href="{{ web.zaklad }}/poptavka/">Poslat poptávku z mobilu</a>
+      <a class="tlacitko tlacitko-druhe" href="tel:{{ firma.telefonOdkaz }}">Zavolat {{ firma.telefon | nezalom }}</a>
+    </p>
+  </div>
+</section>
+
+<section class="obal sekce" id="poptavka-jednoduse">
+  <div class="kroky3">
+    <div><span class="ikona" aria-hidden="true">📷</span><h3>Vyfoťte to</h3><p>Místo, kam nábytek patří, nebo předlohu, která se vám líbí. Klidně i krátké video.</p></div>
+    <div><span class="ikona" aria-hidden="true">🎤</span><h3>Řekněte, co chcete</h3><p>Namluvte to do telefonu nebo napište pár vět – rozměry, barvu, materiál.</p></div>
+    <div><span class="ikona" aria-hidden="true">📐</span><h3>Dostanete návrh</h3><p>S orientační cenou a obrázkem pro představu. Přesnou cenu řekneme po zaměření.</p></div>
+  </div>
+  <p class="stred"><a class="tlacitko" href="{{ web.zaklad }}/poptavka/">Poslat poptávku</a></p>
+</section>
+
+<section class="obal sekce" id="vyrabime">
+  <h2>Co vyrábíme</h2>
+  <p class="perex">Máme zkušenosti s nábytkem pro domácnosti, firmy i provozovny. Nejvíc děláme kuchyně a vestavěný nábytek.</p>
+  <div class="dlazdice">
+  {%- for k in fotky.kategorie %}{% if k.kod != "dilna" %}
+    {%- set vk = fotky.fotky | vKategorii(k.kod) %}
+    {%- set nej = (vk | hlavni)[0] or vk[0] %}
+    {%- if nej %}
+    <a class="dlazdice-karta" href="{{ web.zaklad }}/reference/#{{ k.kod }}">
+      <img loading="lazy" src="{{ web.zaklad }}/fotky/{{ nej.id }}-n.jpg" alt="{{ k.nazev }}">
+      <span>{{ k.nazev }}</span>
+    </a>
+    {%- endif %}
+  {%- endif %}{% endfor %}
+  </div>
+</section>
+
+<section class="obal sekce">
+  <h2>Vybrané realizace</h2>
+  <div class="galerie" data-galerie>
+  {%- for f in fotky.fotky | hlavni %}
+    <a href="{{ web.zaklad }}/fotky/{{ f.id }}.jpg" data-popis="{{ (fotky.kategorie | selectattr('kod','equalto',f.kategorie) | first).nazev }}"><img loading="lazy" src="{{ web.zaklad }}/fotky/{{ f.id }}-n.jpg" width="600" height="{{ (600 * f.h / f.w) | round }}" alt="{{ (fotky.kategorie | selectattr('kod','equalto',f.kategorie) | first).nazev }} – realizace Stolařství DOFEK"></a>
+  {%- endfor %}
+  </div>
+  <p class="stred"><a class="tlacitko tlacitko-druhe" href="{{ web.zaklad }}/reference/">Všechny reference</a></p>
+</section>
+
+<section class="pruh sekce" id="jak">
+  <div class="obal">
+    <h2>Jak to probíhá</h2>
+    <ol class="postup">
+      <li><b>Poptávka</b> – fotka nebo video a pár slov. Z mobilu, e-mailem nebo telefonem.</li>
+      <li><b>Návrh a orientační cena</b> – podle vašich fotek připravíme návrh s obrázkem pro představu a cenovým rozpětím.</li>
+      <li><b>Zaměření</b> – přijedeme změřit a domluvíme detaily. Pak řekneme přesnou cenu.</li>
+      <li><b>Výroba</b> – vyrábíme v naší dílně v Brně.</li>
+      <li><b>Montáž</b> – <span class="doplnit">[DOPLNIT se stolařem: montáž a doprava – sami, v jakém okolí]</span></li>
+    </ol>
+    <p>Nábytek vyrábíme podle plánu, který s vámi sestavíme, podle vašeho vlastního návrhu, a spolupracujeme i s architektonickými studii. Zakládáme si na otevřené komunikaci a solidním jednání.</p>
+  </div>
+</section>
+
+<section class="obal sekce">
+  <h2>Materiály</h2>
+  <div class="materialy">
+    <div><h3>Lamino</h3><p>Praktické a cenově dostupné. <span class="doplnit">[DOPLNIT: dekory, dodavatelé]</span></p></div>
+    <div><h3>Masiv</h3><p>Pro ty, kdo chtějí poctivé dřevo. <span class="doplnit">[DOPLNIT: dřeviny]</span></p></div>
+    <div><h3>Nestandardní materiály</h3><p>A postupy podle vašeho přání. <span class="doplnit">[DOPLNIT: příklady]</span></p></div>
+  </div>
+</section>
+
+<section class="obal sekce kontakt-pruh">
+  <div>
+    <h2>Přijďte se podívat</h2>
+    <p>Dílna je v Brně na Vídeňské 99, {{ firma.adresaUpresneni }}. {{ firma.oteviraciDoba | nezalom }}.</p>
+  </div>
+  <p><a class="tlacitko" href="{{ web.zaklad }}/kontakt/">Kontakt a mapa</a></p>
+</section>

@@ -1,0 +1,25 @@
+---
+layout: zaklad.njk
+permalink: /kontakt/
+titulek: Kontakt
+---
+<div class="obal sekce">
+  <h1>Kontakt</h1>
+  <div class="kontakt-mrizka">
+    <div class="karta">
+      <h2>{{ firma.nazev }}</h2>
+      <p><b>{{ firma.majitel }}</b></p>
+      <p class="velky"><a href="tel:{{ firma.telefonOdkaz }}">{{ firma.telefon | nezalom }}</a></p>
+      <p><a href="mailto:{{ firma.email }}">{{ firma.email }}</a></p>
+      <p>{{ firma.oteviraciDoba | nezalom }}</p>
+      <p>IČO {{ firma.ico }}</p>
+    </div>
+    <div class="karta">
+      <h2>Dílna a provozovna</h2>
+      <p>{{ firma.adresa }}<br>{{ firma.adresaUpresneni }}</p>
+      <p><a class="tlacitko tlacitko-druhe" href="{{ firma.mapa }}" rel="noopener">Otevřít v Mapy.cz</a></p>
+      <p class="pozn">Mapu do stránky nevkládáme, aby návštěvník nepředával údaje mapové službě, dokud na ni sám neklepne.</p>
+    </div>
+  </div>
+  <p class="stred"><a class="tlacitko" href="{{ web.zaklad }}/poptavka/">Poslat poptávku z mobilu</a></p>
+</div>
