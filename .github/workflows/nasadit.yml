@@ -6,6 +6,8 @@
 #   2. sestaví web (testovací verze: noindex a žlutý pruh),
 #   3. zveřejní složku _site,
 #   4. ověří, že živý web vrací přesně sestavenou úvodní stránku.
+# Sestavení a zveřejnění jsou dvě úlohy záměrně: když deploy-pages běží ve stejné úloze hned
+# po nahrání, GitHub balíček občas ještě nevidí („No artifacts named github-pages“, 25. 11. 2026).
 
 name: Nasadit web
 
@@ -28,11 +30,8 @@ env:
   KONTROLNI_SOUBOR: index.html
 
 jobs:
-  nasadit:
+  sestavit:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.nasazeni.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -61,8 +60,23 @@ jobs:
         with:
           path: ${{ env.WEB }}
 
+  nasadit:
+    needs: sestavit
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.nasazeni.outputs.page_url }}
+    steps:
       - id: nasazeni
         uses: actions/deploy-pages@v4
+
+      - name: Stáhnout sestavenou stránku pro porovnání
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+
+      - name: Rozbalit
+        run: mkdir -p "${WEB}" && tar -xf artifact.tar -C "${WEB}"
 
       - name: Ověřit živý web
         env:
